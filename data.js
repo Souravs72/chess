@@ -15,17 +15,17 @@ function SquareRow(rowId) {
 
         squareCol.forEach((element, index) => {
             if (index % 2 == 0) {
-                squareRow.push(Square("Black", element + rowId, null));
+                squareRow.push(Square("black", element + rowId, null));
             } else {
-                squareRow.push(Square("White", element + rowId, null));
+                squareRow.push(Square("white", element + rowId, null));
             }
         });
     } else {
         squareCol.forEach((element, index) => {
             if (index % 2 == 0) {
-                squareRow.push(Square("White", element + rowId, null));
+                squareRow.push(Square("white", element + rowId, null));
             } else {
-                squareRow.push(Square("Black", element + rowId, null));
+                squareRow.push(Square("black", element + rowId, null));
             }
         });
     }

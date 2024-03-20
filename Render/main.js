@@ -5,7 +5,8 @@ function initGameRender(data) {
         const rowElement = document.createElement("div");
         element.forEach((square) => {
             const squareDiv = document.createElement("div");
-            squareDiv.classList.add(square.color)
+            squareDiv.classList.add(square.color, "square");
+            rowElement.appendChild(squareDiv);
         });
         rowElement.classList.add("squareRow");
         ROOT_DIV.appendChild(rowElement);
