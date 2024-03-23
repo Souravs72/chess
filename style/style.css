@@ -1,5 +1,5 @@
 body {
-    background-color: #302E2B;
+    background-color: #302e2b;
 }
 
 #root {
@@ -8,18 +8,24 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .squareRow {
     align-items: center;
     display: flex;
 }
 
 .white {
-    background-color: #EBECD0;
+    background-color: #ebecd0;
 }
+
 .black {
     background-color: #779556;
 }
-.square{
+
+.square {
     width: 50px;
     height: 50px;
+}
+.pieceImage {
+    width: 50px;
 }
